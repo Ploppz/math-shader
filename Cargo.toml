@@ -1,0 +1,11 @@
+[package]
+name = "math-shader"
+version = "0.1.0"
+authors = ["Erlend Langseth <3rlendhl@gmail.com>"]
+
+[dependencies]
+gfx = "0.16.1"
+glutin = "0.9.2"
+gfx_window_glutin = "0.17.0"
+clap = "2.26.0"
+math = {path = "../math"}
